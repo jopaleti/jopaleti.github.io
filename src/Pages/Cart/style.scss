@@ -1,0 +1,27 @@
+.navBar {
+    background: rgba($color: #000000, $alpha: 0.7);
+    .span{
+        padding: 10px 13px;
+        color: #fff;
+        
+        .navItem{
+            color: white;
+            text-decoration: none;
+            
+        }
+    }
+    .span:hover {
+        background: blue;
+    }
+    
+}
+.image {
+    object-fit: cover;
+    object-position: center;
+}
+.imageDesc {
+    h6 {
+        font-size: 13px;
+        font-weight: 600;
+    }
+}

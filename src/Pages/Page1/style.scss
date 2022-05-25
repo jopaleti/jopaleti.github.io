@@ -1,0 +1,15 @@
+html {
+    scroll-behavior: smooth;
+}
+.page1 {
+    scroll-snap-type: y proximity;
+    overflow-y: scroll;
+    height: 100vh;
+    div {
+        // scroll-snap-align: end;
+    }
+    .sliding {
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+   
+}

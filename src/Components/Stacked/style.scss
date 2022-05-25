@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+.stack::-webkit-scrollbar { 
+    display: none;  /* Safari and Chrome */
+}
+.stack {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    gap: 10px;
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none; /* Firefox */
+    .flex-items{
+        width: 250px;
+        flex-basis: 250px;
+        flex-grow: 0;
+        flex-shrink: 0;
+        .card {
+            border: 0 !important;
+            .card-body {
+                padding: 10px !important;
+            }
+        }
+        .card__text {
+            font-size: 12px;
+            color: rgb(0, 0, 100);
+        }
+        .card-img{
+            height: 150px;
+            object-fit: cover;
+            object-position: center;
+        }
+        
+        .card-img, .card-img-top {
+            border-top-left-radius: unset !important;
+            border-top-right-radius: unset !important;
+        }
+    }
+}

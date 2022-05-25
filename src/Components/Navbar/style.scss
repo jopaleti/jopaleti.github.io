@@ -1,0 +1,87 @@
+.form-container {
+    width: 50%;
+}
+.menuBar {
+    display: none;
+}
+@media screen and (max-width: 1000px) {
+    .form-container {
+        width: 30%;
+        
+    } 
+}
+@media (max-width: 772px){
+    .form-container {
+        width: 40%;
+    } 
+    .ic1, .ic2 {
+        display: none;
+    }
+    .menuBar {
+        display: inline-block;
+    }
+    .Sign-login {
+        display: none !important;
+    }
+}
+@media (max-width: 518px){
+    .nav-Brand {
+        font-size: 20px;
+    }
+}
+@media (max-width: 590px) {
+    .nav-LinkMenu {
+        font-size: 14px;
+    }
+    .nav-Link {
+        font-size: 13px;
+    }
+}   
+@media (max-width: 489px) {
+    .categText {
+        display: none;
+    }
+    .categIcon {
+        display: none !important;
+    }
+}
+@media screen and (min-width: 469px) { 
+    .secondNav {
+        display: none;
+    }
+}
+@media (max-width: 470px) {
+    .form-container {
+       display: none;
+    } 
+    .secondNav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: auto;
+        .Form2-cont {
+            width: 50%;
+        }
+        .cart {
+            font-size: 12px;
+        }
+        .log{
+            font-size: 15px;
+        }
+    }
+}
+
+@media (max-width: 350px){
+    .menu-Icon {
+        margin-right: unset !important;
+    }
+    .nav-LinkMenu {
+        padding-right: unset !important;
+    }
+}
+
+@media (max-width: 319px) {
+    .nav-Link {
+        padding-left: 10px !important;
+    }
+}

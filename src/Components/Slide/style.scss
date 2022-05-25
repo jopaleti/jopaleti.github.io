@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+.slideCont {
+    font-family: 'Poppins', sans-serif;
+    .flex-roundX {
+        width: 220px;
+        .rowImgX {
+            height: 160px;
+            object-fit: cover;
+            object-position: center;
+        }
+        .rowImgX:hover{
+            animation: headShake; /* referring directly to the animation's @keyframe declaration */
+            animation-duration: 1s;
+        }
+    }
+    .slideText {
+        // height: 60px;
+        // overflow: auto;
+        // overflow-x: hidden;
+        .slideP {
+            font-size: 12px;
+        }
+    }
+}
+@media (max-width: 768px) {
+    .flex-roundX {
+        width: 165px !important;
+        .rowImgX {
+            height: 130px !important;
+            
+        }
+    }
+    .rowImgX:hover{
+        animation: headShake; /* referring directly to the animation's @keyframe declaration */
+        animation-duration: 1s;
+    }
+}
+
+@media (max-width: 539px) {
+    .flex-roundX {
+        width: 160px !important;
+        .rowImgX {
+            height: 100px !important;
+            
+        }
+    }
+    .rowImgX:hover{
+        animation: headShake; /* referring directly to the animation's @keyframe declaration */
+        animation-duration: 1s;
+    }
+}
+
+@media (max-width: 521.5px) {
+    .flex-roundX {
+        width: 45vw !important;
+        .rowImgX {
+            height: 100px !important;
+            
+        }
+    }
+    .rowImgX:hover{
+        animation: headShake; /* referring directly to the animation's @keyframe declaration */
+        animation-duration: 1s;
+    }
+}
+
+@media (max-width: 357.5px){
+    .slideP {
+        font-size: 10px !important;
+    }
+    .rowImgX:hover{
+        animation: headShake; /* referring directly to the animation's @keyframe declaration */
+        animation-duration: 1s;
+    }
+}

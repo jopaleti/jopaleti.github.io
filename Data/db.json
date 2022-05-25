@@ -1,0 +1,32 @@
+{
+  "notes": [
+    {
+      "title": "GiftCard",
+      "details": "It is a game",
+      "category": "game",
+      "id": 1
+    },
+    {
+      "title": "Fusion",
+      "details": "Mechanical engineering design",
+      "category": "Mechanical design",
+      "id": 2
+    },
+    {
+      "title": "Javascript",
+      "details": "Programming language",
+      "category": "Scripting language",
+      "id": 3
+    },
+    {
+      "title": "Mathematical induction",
+      "details": "It is used to prove the validity of a non negative integer",
+      "id": 4
+    },
+    {
+      "title": "Mathematical induction",
+      "details": "It is used to prove the validity of a non negative integer",
+      "id": 5
+    }
+  ]
+}

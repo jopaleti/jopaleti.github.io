@@ -1,0 +1,17 @@
+.or__section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .or {
+        font-size: 12px;
+    }
+    .para {
+        width: 40px;
+        height: 2px;
+        background-color: grey;
+
+    }
+}
+.login__footer {
+    font-size: 12px;
+}

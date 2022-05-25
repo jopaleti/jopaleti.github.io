@@ -1,0 +1,56 @@
+.round {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    .flex-round {
+        width: 200px;
+        .rowImg {
+            height: 200px;
+            width: 200px;
+            border-radius: 50%;
+            object-fit: cover;
+            object-position: center;
+        }
+    }
+}
+
+@media (max-width: 767.5px) {
+    .flex-round {
+        margin: auto !important;
+        width: 150px;
+        h6 {
+            // Note this can affect the positioning of the content
+            width: 50%;
+            margin-left: 0;
+        }
+        .rowImg {
+            height: 150px !important;
+            width: 150px !important;
+            border-radius: 50%;
+            
+        }
+    }
+}
+
+@media (max-width: 463.5px) {
+    .flex-round {
+        margin: auto !important;
+        width: 100px;
+        .rowImg {
+            height: 100px !important;
+            width: 100px !important;
+            border-radius: 50%;
+            
+        }
+    }
+}
+@media (max-width: 336.5px) {
+    .flex-round {
+        margin: auto !important;
+        width: 90px;
+        .rowImg {
+            height: 90px !important;
+            width: 90px !important;
+            border-radius: 50%;
+            
+        }
+    }
+}
